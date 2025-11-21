@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aidan Rafif Djalins - Portfolio</title>
     <link rel="stylesheet" href="./styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
     <header>
@@ -41,12 +42,50 @@
             </p>
         </section>
         <section id="projects">
-            <h3>Here's what I've worked on so far...</h3>
-            <ul>
-                <li><a href="https://aidandjalins.github.io/top-RockPaperScissors/">Rock, Paper, Scissor Game</a></li>
-                <li><a href="https://aidandjalins.github.io/etch-a-sketch/">Etch-a-Sketch</a></li>
-                <li><a href="https://aidandjalins.github.io/landing-page/">Company Website Portfolio</a></li>
-            </ul>
+            <h3 class="text-3xl font-bold mb-6 text-indigo-400">Here's what I've been working on</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Project Card 1 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
+                    <div class="h-48 bg-gradient-to-br from-indigo-500 to-indigo-700 flex items-center justify-center text-white text-5xl font-bold">
+                        👊 ✋ ✌️
+                    </div>
+                    <div class="p-6">
+                        <h4 class="text-xl font-semibold text-gray-800 mb-3">Rock, Paper, Scissors Game</h4>
+                        <p class="text-gray-600 mb-4 leading-relaxed">Rock, Paper, Scissors, built on JavaScript! Play against the computer, best to five wins!</p>
+                        <a href="https://aidandjalins.github.io/top-RockPaperScissors/" class="inline-block text-indigo-400 font-medium hover:text-indigo-600 transition-colors">
+                            View Project →
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project Card 2 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
+                    <div class="h-48 bg-gradient-to-br from-indigo-500 to-indigo-700 flex items-center justify-center text-white text-5xl">
+                        🎨
+                    </div>
+                    <div class="p-6">
+                        <h4 class="text-xl font-semibold text-gray-800 mb-3">Etch-a-Sketch</h4>
+                        <p class="text-gray-600 mb-4 leading-relaxed">An etch-a-sketch board, made with the use of DOM manipulation. Generate your board and draw away!</p>
+                        <a href="https://aidandjalins.github.io/etch-a-sketch/" class="inline-block text-indigo-400 font-medium hover:text-indigo-600 transition-colors">
+                            View Project →
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project Card 3 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
+                    <div class="h-48 bg-gradient-to-br from-indigo-500 to-indigo-700 flex items-center justify-center text-white text-5xl">
+                        💼
+                    </div>
+                    <div class="p-6">
+                        <h4 class="text-xl font-semibold text-gray-800 mb-3">Company Website Portfolio</h4>
+                        <p class="text-gray-600 mb-4 leading-relaxed">A landing page I made for a client from a well established company.</p>
+                        <a href="https://aidandjalins.github.io/landing-page/" class="inline-block text-indigo-400 font-medium hover:text-indigo-600 transition-colors">
+                            View Project →
+                        </a>
+                    </div>
+                </div>
+            </div>
         </section>
         <section id="contact">
             <h3>Let's connect!</h3>
