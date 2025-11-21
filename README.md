@@ -6,7 +6,7 @@
 
 Overview of the progress of the website portfolio design
 
-## Milestone 1
+## Milestone 1 - Module 1
 
 The progress made in Milestone 1 covers creating the initial structure of the website, focusing mostly on HTML
 
@@ -14,7 +14,7 @@ The progress made in Milestone 1 covers creating the initial structure of the we
 2. Implemented HTML Semantics, as well as input form for contact section and header navigation links
 3. Created with HTML
    
-## Milestone 2
+## Milestone 1 - Module 2
 
 Milestone 2 is where styling is added to the website, from adding colors, tweaking fonts, making it responsize, and added components from styling libraries.
 
