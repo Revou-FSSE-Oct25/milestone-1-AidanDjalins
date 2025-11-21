@@ -3,19 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Aidan Rafif Djalins - Portfolio</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
     <header>
         <nav>
             <h1>Aidan Rafif Djalins</h1>
-            <h2>Budding Software Developer</h2>
-            <ol>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact Me</a></li>
-            </ol>
+            <div>
+                <h2>Budding Software Developer</h2>
+                <ol>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ol>
+            </div>
         </nav>
     </header>
     <main>
@@ -26,11 +29,11 @@
                 <li>Experience working with high-level companies, creating innovative system designs</li>
                 <li>Skilled in product design, resulting in satisfactory reviews from clients</li>
             </ul>
-            <figure><img src="./assets/foto profil 3x4 - Copy.jpg" alt="" width="200px">
+            <figure><img src="./assets/foto profil 3x4 - Copy.jpg" alt="Aidan Rafif Djalins" width="200">
             <figcaption><p>Aidan Rafif Djalins</p></figcaption></figure>
         </section>
         <section id="about">
-            <h3>Something about myself</h3>
+            <h3>Something about myself...</h3>
             <p>
                 I've always had an interest in problem-solving, and having since picked up programming, I've
                 aided companies by taking their ideas on paper and transforming them into technological wonders. <br>With years
@@ -38,7 +41,7 @@
             </p>
         </section>
         <section id="projects">
-            <h3>Here's what I've been working on</h3>
+            <h3>Here's what I've worked on so far...</h3>
             <ul>
                 <li><a href="https://aidandjalins.github.io/top-RockPaperScissors/">Rock, Paper, Scissor Game</a></li>
                 <li><a href="https://aidandjalins.github.io/etch-a-sketch/">Etch-a-Sketch</a></li>
@@ -46,35 +49,28 @@
             </ul>
         </section>
         <section id="contact">
-            <h3>Let's connect</h3>
+            <h3>Let's connect!</h3>
             <p>Have an idea that you're itching to put in paper so I can put in code? Let's connect so I can make your product dream a reality!</p>
             <form action="" method="post" class="contact-form">
                 <div class="form-input">
-                    <label for="name">Name : </label>
+                    <label for="name">Name</label>
                     <input type="text" name="name" id="name" required />
                 </div>
-                <br>
                 <div class="form-input">
-                    <label for="email">Email : </label>
+                    <label for="email">Email</label>
                     <input type="email" name="email" id="email" required />
                 </div>
-                <br>
                 <div>
-                    <label for="description">Tell me what you need...</label><br>
+                    <label for="description">Tell me what you need...</label>
                     <textarea name="description" id="description" cols="30" rows="10" placeholder="Hi! I need help designing my product. I need it to be..."></textarea>
                 </div>
-                <br>
                 <fieldset>
                     <legend>Do you agree to be contacted or have a meeting during weekends?</legend>
                     <div>
-                        <input type="radio" id="choice1" name="true" value="true" />
-                        <label for="choice1">Yes</label>
-                        
-                        <input type="radio" id="choice2" name="false" value="false" />
-                        <label for="choice2">No</label>
+                        <label><input type="radio" name="weekend" value="true" />Yes</label>
+                        <label><input type="radio" name="weekend" value="false" />No</label>
                     </div>
                 </fieldset>
-                <br>
                 <div>
                     <input type="submit" value="Submit">
                 </div>
