@@ -24,3 +24,14 @@ Milestone 2 is where styling is added to the website, from adding colors, tweaki
 4. Added media queries to compensate viewing at different screen sizes, ensuring responsive design
 5. Use of flexbox, such as in the header nav, for added spacing
 6. Tailwind CSS cards were used for the projects in 'projects' section
+
+## Milestone 1 - Revision 1
+
+This revision is a result of discussion with my Team Lead on how I can take my project to the next level. Certain changes, although seeming subtle, elevated the design to fit a more stylish feel 
+
+1. Contact form is now centered instead of on the left
+2. Home section is now a 'hero banner' design
+3. Added logo design next to nav links, replacing name and slogan headers
+4. Added new fonts/font pairings of Poppins and Inter
+5. Added typewriter animation for hero
+   
