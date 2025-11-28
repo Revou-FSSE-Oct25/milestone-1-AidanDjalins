@@ -15,6 +15,7 @@ header {
     color: white;
     padding: 1rem 0;
     top: 0;
+    z-index: 100;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -84,45 +85,67 @@ section h3 {
 
 #home {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    text-align: center;
-    padding: 3rem 0;
+    justify-content: space-around;
+    padding: 4rem 2rem;
+    min-height: 70vh;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    border-radius: 16px;
+    gap: 3rem;
+}
+
+#home .hero-content {
+    flex: 1;
+    max-width: 600px;
+}
+
+#home h3 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #667eea;
 }
 
 #home p {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     margin-bottom: 2rem;
-    max-width: 600px;
+    color: #555;
+    line-height: 1.8;
 }
 
 #home ul {
     list-style: none;
     margin-bottom: 2rem;
-    max-width: 700px;
 }
 
 #home ul li {
-    background: #f8f9fa;
-    padding: 1rem;
+    background: white;
+    padding: 1rem 1.5rem;
     margin-bottom: 1rem;
     border-radius: 8px;
     border-left: 4px solid #667eea;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+#home .hero-image {
+    flex: 0 0 auto;
 }
 
 #home figure {
-    margin-top: 2rem;
+    margin: 0;
 }
 
 #home figure img {
     border-radius: 50%;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+    border: 6px solid white;
 }
 
 #home figcaption {
     margin-top: 1rem;
     font-style: italic;
     color: #666;
+    text-align: center;
 }
 
 /* About Me Section */
@@ -287,6 +310,17 @@ footer a:hover {
 
     section h3 {
         font-size: 1.5rem;
+    }
+
+    #home {
+        flex-direction: column;
+        text-align: center;
+        min-height: auto;
+        padding: 2rem 1rem;
+    }
+
+    #home h3 {
+        font-size: 2rem;
     }
 
     #home p {
